@@ -269,3 +269,47 @@ section {
 .btn-container {
     gap: 1rem;
 }
+
+/* About */
+
+#about {
+    margin-top: 5rem;
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+    height: 400px;
+    width: 400px;
+    margin-top: 25%;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: #1d1d1d;
+    border-radius: 2rem;
+    border: (#fabd2f), 0.1rem solid;
+    border-color: #d5c4a1;
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
