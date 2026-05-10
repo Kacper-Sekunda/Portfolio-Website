@@ -14,7 +14,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience">Experience & Achievements</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a class="contact" href="#contact">Contact</a></li>
             </ul>
@@ -42,7 +42,7 @@
         </div>
         <div class="section__text">
             <h1 class="title">Games Programmer</h1>
-            <p class="section__text__p1">Studying Games Programming</p>
+            <p class="section__text__p1">Studying Games Production</p>
             <p class="section__text__p2">at The University of Huddersfield</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')"
@@ -62,12 +62,16 @@
                 class="icon" onclick="location.href='https://github.com/Kacper-Sekunda/'"
                 />
             </div>
+            <div class="nav-arrows">
+            <i class="fa-solid fa-arrow-down" style="color:#fabd2f;cursor: pointer;" onclick="location.href='./#about'"></i>
+        </div>
         </div>
     </section>
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
-        <div class="section-container">
+        <div class="about-me-container">
+            <div class="section-container">
             <div class="section__about-pic-container">
                 <img src="assets/profile-picture.png" 
                     alt="Profile Picture" 
@@ -77,23 +81,184 @@
                 <div class="about-containers">
                     <div class="details-container">
                         <h3 style="color: #fabd2f;"><i class="fa-solid fa-font-awesome" style="color: #fabd2f;"></i> Experience</h3>
-                        <p>2+ Years <br> Games Programmer</p>
+                        <p>Games Production <br> 4+ Years</p>
                     </div>
                     <div class="details-container">
                         <h3 style="color: #fabd2f;"><i class="fa-solid fa-user-graduate" style="color: #fabd2f;"></i> Education</h3>
-                        <p>BSc/h <br> University of Huddersfield</p>
+                        <p>BSc/h Games Development (Production) <br> University of Huddersfield</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Officiis, expedita? Quibusdam impedit ullam ducimus 
-                        tenetur sequi, esse perferendis natus, officia sapiente 
-                        corrupti amet minima vel! Obcaecati accusantium repellat 
-                        neque aperiam?</p>
+                    <p>I am a flexible, ambitious and reliable individual who is currently studying BSC (Hons)
+                    Games Development (Production) at the University of Huddersfield. Using free time
+                    to develop and explore various sectors of game dev, such as 3D modelling, texturing,
+                    animation and procedural animation. Further programming in engines like
+                    Unreal Engine and Unity using C++, Unreal Engine Blueprints and C#.</p>
                 </div>
             </div>
         </div>
-        <i class="fa-solid fa-arrows-down-to-line" style="color:#fabd2f;position: absolute;right: -5rem;bottom: 2.5rem;height: 2rem;font-size: 1.5rem;" onclick="location.href='./#experience'"></i>
+        </div>
+        <div class="skills-section">
+            <div>
+                <h2 class="skills-title">Skills</h2>
+            </div>
+            <div class="skills-container">
+                <div class="details-container">
+                    <p>Great working knowledge of game engines such as Unreal Engine 4 & 5,
+                    using blueprints, C++, Python integration and API usage.</p>
+                </div>
+                <div class="details-container">
+                    <p>Extensive knowledge of 2D art and animation, 3D art,
+                     standard and procedural animation, sculpting and rigging.</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-arrows">
+            <i class="fa-solid fa-arrow-up" style="color:#fabd2f;cursor: pointer;" onclick="window.scrollTo(0, 0);"></i>
+            <i class="fa-solid fa-arrow-down" style="color:#fabd2f;cursor: pointer;" onclick="location.href='./#experience'"></i>
+        </div>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience & Achievements</h1>
+        <div class="section-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h3 style="color: #fabd2f;"><i class="fa-solid fa-code" style="color: #fabd2f;"></i> FiveM</h3>
+                    <p>1 Year<br><br>Student<br>Scripter</p>
+                </div>
+                <div class="details-container">
+                    <h3 style="color: #fabd2f;"><i class="fa-solid fa-gamepad" style="color: #fabd2f;"></i> Game Jam</h3>
+                    <p>1st Year of University<br><br> Won 1st place as designer and programmer in a week-long game jam by creating a couch co-op game.</p>
+                </div>
+                <div class="details-container">
+                    <h3 style="color: #fabd2f;"><i class="fa-solid fa-gamepad" style="color: #fabd2f;"></i> Game Jam</h3>
+                    <p> 2nd Year of University<br><br> Won 2nd place as programmer in a week-long game jam by creating an action stealth shooter.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="nav-arrows">
+            <i class="fa-solid fa-arrow-up" style="color:#fabd2f;cursor: pointer;" onclick="window.scrollTo(0, 0);"></i>
+            <i class="fa-solid fa-arrow-up" style="color:#fabd2f;cursor: pointer;" onclick="location.href='./#about'"></i>
+            <i class="fa-solid fa-arrow-down" style="color:#fabd2f;cursor: pointer;" onclick="location.href='./#projects'"></i>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="slider-wrapper">
+            <button class="slider-control left" onclick="scrollProjects('prev')"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="slider-window">
+                <div class="slider-track">
+                    <article class="slide" style="background-image: linear-gradient(rgba(40,40,40,0.75), rgba(40,40,40,0.75)), url('./assets/Background2.png');">
+                        <div class="slide-photo">
+                            <img src="./assets/Background1.png" alt="Skyborn Runner" />
+                        </div>
+                        <div class="slide-content">
+                            <span class="slide-tag">01/01/2026</span>
+                            <h3 class="slide-title">Facial Interaction System</h3>
+                            <p class="slide-text">UE5 Python Face Tracking</p>
+                            <button class="slide-link" type="button" onclick="openProjectDetail('01/01/2026','Project Dinkle','PROJECT DESCRIPTION','PROJECT DESCRIPTION')">More details</button>
+                        </div>
+                    </article>
+                    <article class="slide" style="background-image: linear-gradient(rgba(40,40,40,0.75), rgba(40,40,40,0.75)), url('./assets/Background2.png');">
+                        <div class="slide-photo">
+                            <img src="./assets/Background1.png" alt="Pixel Quest" />
+                        </div>
+                        <div class="slide-content">
+                            <span class="slide-tag">ProjectTag</span>
+                            <h3 class="slide-title">Project</h3>
+                            <p class="slide-text">PROJECT DESCRIPTION</p>
+                            <button class="slide-link" type="button" onclick="openProjectDetail('ProjectTag','Project','PROJECT DESCRIPTION','PROJECT DESCRIPTION','assets/Background1.png','assets/Background1.png')">More details</button>
+                        </div>
+                    </article>
+                    <article class="slide" style="background-image: linear-gradient(rgba(40,40,40,0.75), rgba(40,40,40,0.75)), url('./assets/Background2.png');">
+                        <div class="slide-photo">
+                            <img src="./assets/Background1.png" alt="Engine Tools" />
+                        </div>
+                        <div class="slide-content">
+                            <span class="slide-tag">ProjectTag</span>
+                            <h3 class="slide-title">Project</h3>
+                            <p class="slide-text">PROJECT DESCRIPTION</p>
+                            <button class="slide-link" type="button" onclick="openProjectDetail('ProjectTag','Project','PROJECT DESCRIPTION','PROJECT DESCRIPTION','assets/Background1.png','assets/Background1.png')">More details</button>
+                        </div>
+                    </article>
+                    <article class="slide" style="background-image: linear-gradient(rgba(40,40,40,0.75), rgba(40,40,40,0.75)), url('./assets/Background2.png');">
+                        <div class="slide-photo">
+                            <img src="./assets/Background1.png" alt="Particle Lab" />
+                        </div>
+                        <div class="slide-content">
+                            <span class="slide-tag">ProjectTag</span>
+                            <h3 class="slide-title">Project</h3>
+                            <p class="slide-text">PROJECT DESCRIPTION</p>
+                            <button class="slide-link" type="button" onclick="openProjectDetail('ProjectTag','Project','PROJECT DESCRIPTION','PROJECT DESCRIPTION','assets/Background1.png','assets/Background1.png')">More details</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <button class="slider-control right" onclick="scrollProjects('next')"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="project-detail-panel" id="projectDetailOverlay">
+            <div class="project-detail-card">
+                <button class="detail-close" onclick="closeProjectDetail()">×</button>
+                <div class="project-detail-header">
+                    <span class="slide-tag" id="detailTag"></span>
+                    <h3 class="slide-title" id="detailTitle"></h3>
+                </div>
+                <div class="project-detail-grid">
+                    <div class="detail-images">
+                        <img src="assets/profile-picture.png" alt="Project screenshot 1" class="detail-image" id="detailImage1">
+                        <img src="assets/profile-picture.png" alt="Project screenshot 2" class="detail-image" id="detailImage2">
+                    </div>
+                    <div class="detail-content">
+                        <p class="slide-text" id="detailText"></p>
+                        <p class="slide-text" id="detailBody"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="nav-arrows">
+            <i class="fa-solid fa-arrow-up" style="color:#fabd2f;cursor: pointer;" onclick="window.scrollTo(0, 0);"></i>
+            <i class="fa-solid fa-arrow-up" style="color:#fabd2f;cursor: pointer;" onclick="location.href='./#experience'"></i>
+            <i class="fa-solid fa-arrow-down" style="color:#fabd2f;cursor: pointer;" onclick="location.href='./#contact'"></i>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title" style="padding-bottom: 1rem;">Contact Me</h1>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea style="resize: none;" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-color-1">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="details-container">
+                    <h3 style="color: #fabd2f;"><i class="fa-solid fa-envelope" style="color: #fabd2f;"></i> Email</h3>
+                    <p>KacperSekunda@gmail.com
+                    </p>
+                </div>
+                <div class="details-container">
+                    <h3 style="color: #fabd2f;"><i class="fa-solid fa-phone" style="color: #fabd2f;"></i> Phone</h3>
+                    <p>+44 (0) 7521 207 943</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-arrows">
+            <i class="fa-solid fa-arrow-up" style="color:#fabd2f;cursor: pointer;" onclick="window.scrollTo(0, 0);"></i>
+            <i class="fa-solid fa-arrow-up" style="color:#fabd2f;cursor: pointer;" onclick="location.href='./#projects'"></i>
+        </div>
     </section>
     <script src="script.js"></script>
 </body>
