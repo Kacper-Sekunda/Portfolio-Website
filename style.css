@@ -199,9 +199,12 @@ section {
     display: flex;
     height: 400px;
     width: 400px;
-    margin: 60% 0;
     border-radius: 50%;
     box-shadow: var(--shadow);
+}
+
+.section__pic-container{
+    align-content: center;
 }
 
 .section__text {
@@ -293,6 +296,7 @@ section {
 #about {
     margin-top: 5rem;
     position: relative;
+    height: fit-content;
 }
 
 .about-me-container {
@@ -376,7 +380,9 @@ section {
     gap: 1.5rem;
     width: 100%;
     max-width: 1000px;
-    margin: 3rem auto 0;
+    margin: 5% auto 0;
+    margin-top: 1rem;
+    margin-bottom: 10%;
 }
 
 .skills-header-box {
@@ -423,7 +429,6 @@ section {
 
 #projects .slider-wrapper,
 #experience .slider-wrapper {
-    margin-top: 7rem;
     width: 70%;
 }
 
