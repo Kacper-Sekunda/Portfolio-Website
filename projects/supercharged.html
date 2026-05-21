@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<body>
+    <nav id="header">
+        <script>
+        fetch('/modules/project-header.html')
+        .then(r => r.text())
+        .then(d => document.getElementById('header').innerHTML = d);
+    </script>  
+    </nav>
+    <section id="achievements" style="width: 70%; max-width: 100rem;">
+        <h1>Supercharged!</h1>
+        <img style="width: 60%; border-radius: 5rem;" src="..\assets\TremorSplashFinal.png">
+        <p style="margin-top: 2rem;">Special thanks to my team: <a style="color: var(--highlight);" href="https://www.christianbelfielddev.co.uk">Christian Belfield</a> - Sam Bullock</p>
+        <p>Christopher Boyce - Keira Stocks - Louie Yip</p>
+        <br>
+        <p style="margin-top: 2rem; width: 80%;">"Project Sickle is a unique sports strategy game about super heroes playing 
+            frisbee. Players take turns planning out the actions of the heroes on their teams, before they all play 
+            out in a chaotic realtime phase. Synergistic hero abilities lead to strategic depth to plays and 
+            counter plays."
+        </p>
+        <a style="margin-top: 2rem; color: var(--highlight);" href="https://www.youtube.com/watch?v=Yf3FneZyMq0">Trailer</a>
+        <a style="color: var(--highlight);" href="https://www.youtube.com/watch?v=MOp2RlJpXMY">Tech Highlight Video</a>
+        <a style="color: var(--highlight);" href="https://www.youtube.com/watch?v=Q_lBa4ZVYyQ">Team Video</a>
+        <a style="margin-top: 2rem; color: var(--highlight);" href="https://www.christianbelfielddev.co.uk">Special thanks to Christian Belfield</a>
+        <p>for making the videos...</p>
+    </section>
+    <div id="footer">
+        <script>
+        fetch('/modules/project-footer.html')
+        .then(r => r.text())
+        .then(d => document.getElementById('footer').innerHTML = d);
+        </script>
+    </div>
+</body>
