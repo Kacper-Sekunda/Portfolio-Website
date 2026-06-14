@@ -31,6 +31,7 @@ body {
     font-family: Inter, system-ui, sans-serif;
     text-align: center;
     overflow-x: hidden;
+    background: linear-gradient(to bottom, var(--primary) 0%, var(--primary-dark) 60%);
 }
 
 body:hover {
@@ -221,7 +222,7 @@ a:hover {
 }
 
 .panel-2 {
-    background-color: var(--primary-dark);
+    background-color: var(--primary);
     border-radius: 4rem;
     width: 75%;
     height: 90%;
