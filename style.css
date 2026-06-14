@@ -360,8 +360,8 @@ a:hover {
 .slider-nav button {
     background: none;
     border: none;
-    color: var(--secondary);
-    font-size: 2rem;
+    color: var(--secondary-dark);
+    font-size: 1rem;
     cursor: pointer;
     padding: 0;
     line-height: 1;
@@ -451,4 +451,147 @@ a:hover {
     grid-area: text;
     align-self: center;
     text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+
+.home-arrow{
+    display: none;
+}
+
+#navigation{
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+p{
+    font-size: .8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+.nav-links{
+    display: none;
+}
+
+.nav-title {
+    justify-content: center;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.home-title-text{
+    font-size: 3rem;
+}
+
+.profile {
+    flex-direction: column;
+    width: 80%;
+    gap: 2rem;
+}
+
+.profile-picture {
+    width: 55%;
+}
+
+#about {
+    flex-direction: column;
+    height: 80vh;
+}
+
+.about-container {
+    width: 90%;
+}
+
+.panel-2 {
+    width: 70%;
+}
+
+.about-grid {
+    grid-template-columns: 1fr;
+    width: 90%;
+    gap: 2rem;
+}
+
+.about-picture{
+    display: none;
+}
+
+.panel {
+    width: 70%;
+    font-size: .8rem;
+}
+
+#achievements {
+    height: 80vh;
+}
+
+#projects {
+    height: 80vh;
+}
+
+.slider-wrapper {
+    margin-top: 2rem;
+    width: 80%;
+    overflow: visible;
+}
+
+.slider-nav {
+    bottom: -2.5rem;
+}
+
+#individual-project {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "title"
+        "image"
+        "text";
+    width: 90%;
+    height: auto;
+}
+
+.slider-nav button {
+    font-size: 0.5rem;
+}
+
+.project-text h2 {
+    font-size: 0.85rem;
+}
+
+.project-text p {
+    font-size: 0.7rem;
+}
+
+.project-info .button {
+    padding: 4px 8px;
+    font-size: 0.7rem;
+}
+
+#individual-project h1,
+#individual-project img {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#individual-project #project-text {
+    text-align: center;
+}
+
+#contact {
+    width: 80%;
+    height: auto;
+    min-height: 50vh;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.footer {
+    flex-direction: column;
+    padding: 25px 5%;
+    gap: 1.5rem;
+}
 }
